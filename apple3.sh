@@ -21,29 +21,3 @@ repeat with proc in listOfProcesses
        end repeat
      end try
 end repeat
-
--- repeat with proc in listOfProcesses
---      log proc
---      tell proc
---      	 set w to ""
---      	 if (proc as string) is not equal to "Finder" then
--- 	    set ct to count of windows
--- 	    set w to windows as list
--- 	 end if
-	 
---      	  -- try
--- 	  --      	  repeat with win in windows
--- 	  -- 	  	 log (name of win) as string
--- 	  -- 	  end repeat
--- 	  -- on error
--- 	  --         log "boo"
--- 	  -- end try
-	  
---      	  -- repeat with i from 1 to (count windows)
--- 	  -- 	 log (name of window i) as string
--- 	  -- end repeat
---      end tell
---      log w
-
--- end repeat
-
